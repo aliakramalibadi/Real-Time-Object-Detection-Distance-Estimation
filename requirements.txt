@@ -1,0 +1,10 @@
+opencv-python==4.12.0
+numpy>=1.24.0
+
+# Camera support
+picamera2>=0.3.14
+libcamera>=0.0.1
+
+# DBus and GLib bindings
+dbus-python>=1.2.18
+PyGObject>=3.46.0
