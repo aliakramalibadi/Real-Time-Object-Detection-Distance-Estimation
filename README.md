@@ -16,6 +16,7 @@ D-Bus messaging to communicate hazard alerts to other system modules
 Designed for smart vehicles, robotics, and ADAS-style applications.
 
 🔍 Project Features:
+
 ✔ Real-Time Object Detection with 30 FPS
 
 Detects: person, car, bus, truck, motorcycle
@@ -83,6 +84,7 @@ Designed for Raspberry Pi
 ▶️ Running the Project:
 
 1. Install dependencies
+
 pip install -r requirements.txt
 
 
@@ -92,9 +94,11 @@ sudo apt install python3-picamera2 -y
 sudo apt install python3-dbus python3-gi
 
 2. Run offline video detection
+   
 python car_vision.py
 
-3. Run Raspberry Pi live detection with D-Bus
+4. Run Raspberry Pi live detection with D-Bus
+   
 python car_vision_Dbus.py
 
 Press Q to exit the GUI.
