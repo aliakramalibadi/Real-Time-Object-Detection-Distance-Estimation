@@ -29,9 +29,9 @@ Distance = (Real Width * Focal Length) / Bounding Box Width
 
 Supports adjustable safety distances:
 
-SAFETY_DISTANCE (default: 2.0m → WARNING)
+SAFETY_DISTANCE (object at 2.0m → WARNING)
 
-STOP_DISTANCE (default: 1.0m → STOP)
+STOP_DISTANCE (object at 1.0m → STOP)
 
 ✔ Raspberry Pi Camera Support
 
